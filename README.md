@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
   <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
   <header>
-    <h1>CHRIS</h1>
+    <h1 id="chris-title">CHRIS</h1>
     <nav>
       <ul>
         <li><a href="#about">關於我</a></li>
@@ -47,7 +48,15 @@
   <section id="contact">
     <h2>聯絡我</h2>
     <p>Email: arik9080032@gmail.com</p>
-    <p>IG:a424450</p>
+    <p>IG: a424450</p>
   </section>
+
+  <script>
+    $(document).ready(function() {
+      // Change the color of the "CHRIS" title to your desired color (e.g., orange)
+      $("#chris-title").css("color", "orange");
+    });
+  </script>
 </body>
 </html>
+
